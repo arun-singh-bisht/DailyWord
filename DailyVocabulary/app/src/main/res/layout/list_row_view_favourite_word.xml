@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="18dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="20dp"
+    android:background="@android:color/white"
+    >
+
+
+    <TextView
+        android:id="@+id/txt_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Savvy"
+        android:textSize="17sp"
+        android:textStyle="bold|italic"
+        android:textColor="@android:color/black" />
+
+
+    <TextView
+        android:id="@+id/txt_meaning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Practical Knowledge and ability"
+        android:textColor="@android:color/holo_green_dark"
+
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Example 1"
+        android:textStyle="bold|italic"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/txt_example_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Practical Knowledge and ability"
+        android:textColor="@android:color/secondary_text_light"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Example 2"
+        android:textStyle="bold|italic"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/txt_example_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Practical Knowledge and ability"
+        android:textColor="@android:color/secondary_text_light"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp" />
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vocabulary.assignmnet.dailyvocabulary">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".DailyVocabulary"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data android:name="AA_DB_NAME" android:value="daily_vocabulary.db" />
+        <meta-data android:name="AA_DB_VERSION" android:value="1" />
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="com.vocabulary.assignmnet.dailyvocabulary.Database.DailyWord" />
+
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppThemeNoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".FavouriteActivity">
+        </activity>
+        <activity android:name=".AddNewWordActivity">
+        </activity>
+        <activity android:name=".RecycleViewActivity">
+        </activity>
+    </application>
+
+</manifest>
